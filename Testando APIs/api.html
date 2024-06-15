@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar CEP</title>
+    <link rel="stylesheet" href="api.css">
+</head>
+<body>
+    <header>
+        <h1>Buscador de CEP</h1>
+    </header>
+
+    <section>
+        <div class="formulario">
+            <form>
+                <input id="cep" type="text" placeholder="Digite seu CEP">
+                <button id="buscarcep">
+                    <img src="./img/lupa.png" alt="">
+                </button>
+            </form>
+        </div>    
+        <div class="resultado">
+            <h2>Estado: <span id="estado"></span></h2>
+            <h1>Cidade: <span id="cidade"></span></h1>
+            <h1>Endereço: <span id="endereco"></span></h1>
+            <h1>Bairro: <span id="bairro"></span></h1>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+<script src="api.js"></script>
+</body>
+</html>
